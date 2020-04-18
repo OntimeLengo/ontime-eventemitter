@@ -1,0 +1,40 @@
+{
+  "name": "ontime-eventemitter",
+  "version": "1.0.0",
+  "description": "EventEmitter to implement mediator pattern",
+  "main": "build/index.js",
+  "typings": "./build/index.d.ts",
+  "scripts": {
+    "build": "webpack --mode=production",
+    "dev": "webpack --mode=development",
+    "test-watch": "jest --watchAll --no-cache",
+    "test": "jest --no-cache"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OntimeLengo/ontime-eventemitter.git"
+  },
+  "keywords": [
+    "ontime",
+    "eventemitter"
+  ],
+  "author": "Helen Gotovska (OntimeLengo)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/OntimeLengo/ontime-eventemitter/issues"
+  },
+  "homepage": "https://github.com/OntimeLengo/ontime-eventemitter#readme",
+  "devDependencies": {
+    "@types/jest": "^25.2.1",
+    "@types/node": "^13.11.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "jest": "^25.2.7",
+    "ts-jest": "^25.3.1",
+    "ts-lint": "^4.5.1",
+    "ts-loader": "^6.2.2",
+    "ts-node": "^8.8.2",
+    "typescript": "^3.8.3",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  }
+}
